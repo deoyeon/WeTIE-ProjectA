@@ -19,3 +19,14 @@ cause : 감정을 유발한 사건이나 상황
 target : 감정이 향하는 대상
 cue : 감정을 나타내는 단어나 구절
 reader_emotion : 독자가 제목을 읽고 인식한 감정
+
+3. NewsMTSC: Sentiment in English News Articles -> 파일은 업로드 안했어요
+https://www.kaggle.com/datasets/fhamborg/news-articles-sentiment?select=test.jsonl
+- 데이터 개수 : 11467개
+- Column별 설명
+sentence : 뉴스 기사 내의 한 문장
+sentiment : positive, negative, neutral
+source : 기사 출처
+annotation_id : 감성 주석 id
+*정제된 뉴스 문장 중심(기사 전체가 아니라 감성 표현이 명확히 드러나는 문장만 선별됨)
+*기사 제목이 아니라 문장 단위로 구성됨 → 제목 분석용으로는 사전가공 필요
